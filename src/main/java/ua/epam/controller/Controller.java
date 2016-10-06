@@ -41,7 +41,7 @@ public class Controller {
         try(PreparedStatement query = connection.prepareStatement("SELECT * FROM children")) {
             ResultSet rs = query.executeQuery();
             while (rs.next()) {
-                Children children = new Children(rs.getInt("id"), rs.getString("first_name"), rs.getString("last_name"), rs.getInt("age"));
+                Children children = new Children(rs.getInt("id"), rs.getString("first_name"), rs.getString("last_name"), rs.getInt("age"), rs.getInt("id_guest"));
                 dataBase.getChildrens().add(children);
             }
         }

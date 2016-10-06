@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Childrens>
+    <Children id = "1">
+        <id>11</id>
+        <firstName>Jack</firstName>
+        <lastName>Sparrow</lastName>
+        <age>17</age>
+        <idGuest>6</idGuest>
+    </Children>
+    <Children id = "2">
+        <id>12</id>
+        <firstName>Bella</firstName>
+        <lastName>Swan</lastName>
+        <age>18</age>
+        <idGuest>8</idGuest>
+    </Children>
+    <Children id = "3">
+        <id>13</id>
+        <firstName>Edward</firstName>
+        <lastName>Callen</lastName>
+        <age>18</age>
+        <idGuest>9</idGuest>
+    </Children>
+    <Children id = "4">
+        <id>12</id>
+        <firstName>Bella</firstName>
+        <lastName>Callen</lastName>
+        <age>18</age>
+        <idGuest>8</idGuest>
+    </Children>
+    <!--<Children>
+        <id></id>
+        <firstName></firstName>
+        <lastName></lastName>
+        <age></age>
+        <idGuest></idGuest>
+    </Children>-->
+</Childrens>

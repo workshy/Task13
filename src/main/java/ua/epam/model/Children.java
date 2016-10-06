@@ -8,15 +8,17 @@ public class Children {
     private String firstName;
     private String lastName;
     private int age;
+    private int idGuest;
 
-    /*public Children() {
-    }*/
+    public Children() {
+    }
 
-    public Children(int id, String firstName, String lastName, int age) {
+    public Children(int id, String firstName, String lastName, int age, int idGuest) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
+        this.idGuest = idGuest;
     }
 
     public int getId() {
@@ -49,5 +51,24 @@ public class Children {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public int getIdGuest() {
+        return idGuest;
+    }
+
+    public void setIdGuest(int idGuest) {
+        this.idGuest = idGuest;
+    }
+
+    @Override
+    public String toString() {
+        return "Children{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", age=" + age +
+                ", idGuest=" + idGuest +
+                '}';
     }
 }
